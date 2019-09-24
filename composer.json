@@ -11,7 +11,7 @@
         "symfony/framework-bundle": "4.3.*",
         "symfony/monolog-bundle": "^3.4",
         "symfony/yaml": "4.3.*",
-        "syntaxseed/templateseed": "^1.1"
+        "syntaxseed/templateseed": "^1.2"
     },
     "require-dev": {
         "sensiolabs/security-checker": "^6.0",
