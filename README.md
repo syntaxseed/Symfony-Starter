@@ -13,10 +13,10 @@ Based On: **Symfony 4.3.4** (Skeleton)
 
 - Clone Repo
 - Update and install dependencies: ```composer update```
+- Security Check dependencies with: ```./bin/console security:check```
 - Set new APP_SECRET in ```.env``` See: http://nux.net/secret
 - Create a copy of the secret.php config in each environment config package (if needed).
 - Clear Cache: ```./bin/console cache:clear```
-- Security Check dependencies with: ```./bin/console security:check```
 - Run with built-in webserver: ```./bin/console server:run```
 - ...
 
