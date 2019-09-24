@@ -21,12 +21,12 @@ Based On: **Symfony 4.3.4** (Skeleton)
 - Run with built-in webserver: ```./bin/console server:run```
 - ...
 
-## Deploy:
+## Deploy (staging or prod):
 
 - Clone Repo
-- Set ```APP_ENV`` in .env file to proper environment (dev, staging, prod)
+- Set ```APP_ENV`` in .env file to proper environment (staging, prod)
 - Install dependencies: ```composer install --no-dev```
-  - If APP_ENV is dev, do: ```composer install``` instead or scripts will fail
+  - (If APP_ENV is dev, use: ```composer install``` instead or scripts will fail)
 - Copy secret config from secure vault
 - Clear Cache: ```./bin/console cache:clear```
 - Compile Env Vars: ```composer dump-env prod``` (staging, prod)
