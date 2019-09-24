@@ -16,7 +16,7 @@ Based On: **Symfony 4.3.4** (Skeleton)
 - Set new APP_SECRET in ```.env``` See: http://nux.net/secret
 - Create a copy of the secret.php config in each environment config package (if needed).
 - Clear Cache: ```php bin/console cache:clear```
-- Serve with built-in PHP webserver from public/ dir: ```php -S localhost:8000```
+- Serve with built-in PHP webserver: ```php -S localhost:8000 -t public```
 - ...
 
 ## Deploy:
