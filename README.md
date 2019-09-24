@@ -2,6 +2,8 @@
 
 Lightweight Symfony skeleton for basic, mostly static, websites.
 
+Based On: **Symfony 4.3.4** (Skeleton)
+
 - TemplateSeed view renderer.
 - Added staging environment config package, removed test.
 - Monolog added.
