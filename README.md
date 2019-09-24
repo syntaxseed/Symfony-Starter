@@ -14,7 +14,7 @@ Lightweight Symfony skeleton for basic, mostly static, websites.
 - Set new APP_SECRET in ```.env``` See: http://nux.net/secret
 - Create a copy of the secret.php config in each environment config package (if needed).
 - Clear Cache: ```php bin/console cache:clear```
-- Serve with built-in PHP webserver: ```php -S localhost:8000```
+- Serve with built-in PHP webserver from public/ dir: ```php -S localhost:8000```
 - ...
 
 ## Deploy:
@@ -25,4 +25,10 @@ Lightweight Symfony skeleton for basic, mostly static, websites.
 - Set ```APP_ENV`` in .env file to proper environment (dev, staging, prod).
 - Clear Cache: ```php bin/console cache:clear```
 - Compile Env Vars: ```composer dump-env prod``` (staging, prod)
+- Delete:
+  - .git/
+  - bin/
+  - .gitignore
+  - composer.json
+  - README.md
 - ...
