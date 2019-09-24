@@ -8,5 +8,4 @@ return function (RoutingConfigurator $routes) {
         ->methods(['GET'])
         ->defaults(['name' => 'Symfony Starter'])
     ;
-
 };

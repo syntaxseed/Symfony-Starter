@@ -1,6 +1,6 @@
 # Symfony Starter
 
-Light Symfony skeleton for basic websites.
+Lightweight Symfony skeleton for basic, mostly static, websites.
 
 - TemplateSeed view renderer.
 - Added staging environment config package, removed test.
@@ -10,10 +10,10 @@ Light Symfony skeleton for basic websites.
 ## Use:
 
 - Clone Repo
+- Update and install dependencies: ```composer update```
 - Set new APP_SECRET in ```.env``` See: http://nux.net/secret
-- Update dependencies: ```composer update```
-- Clear Cache: ```php bin/console cache:clear```
 - Create a copy of the secret.php config in each environment config package (if needed).
+- Clear Cache: ```php bin/console cache:clear```
 - Serve with built-in PHP webserver: ```php -S localhost:8000```
 - ...
 
@@ -21,7 +21,7 @@ Light Symfony skeleton for basic websites.
 
 - Clone Repo
 - Install dependencies: ```composer install --no-dev```
-- Copy secret config from secure vault.
+- Copy secret config from secure vault
 - Set ```APP_ENV`` in .env file to proper environment (dev, staging, prod).
 - Clear Cache: ```php bin/console cache:clear```
 - Compile Env Vars: ```composer dump-env prod``` (staging, prod)
