@@ -9,6 +9,7 @@ Based On: **Symfony 4.3.4** (Skeleton)
 - Symfony webserver and security-checker available for dev.
 - Monolog added.
 - Base controller with services already injected (TemplateSeed, Monolog).
+- Helpful console commands.
 
 ## Use (dev):
 

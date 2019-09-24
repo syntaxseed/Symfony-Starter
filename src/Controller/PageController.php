@@ -16,9 +16,11 @@ class PageController extends BaseController
          */
 
         return new Response(
-            $this->view->render('index', [
-                'name' => $name
-            ])
+            $this->view->render('masterpage', [
+                'page'=>'pages/index',
+                'title'=>'Hello Symfony Starter',
+                'data'=>['name'=>$name]
+            ], true)
         );
     }
 }
