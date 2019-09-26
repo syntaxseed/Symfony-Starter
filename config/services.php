@@ -6,5 +6,5 @@ $container->autowire(TemplateSeed::class)
     ->setPublic(false)
     ->setArgument('$templatesPath', __DIR__.'/../templates/')
     ->setArgument('$cacheEnabled', false)
-    //->setArgument('$cachePath', __DIR__.'/../var/cache/templates/') // Must exist and be writeable.
+    ->setArgument('$cachePath', __DIR__.'/../var/cache/templates/') // Must be set if caching is ever used.
     ;
