@@ -1966,23 +1966,23 @@
         },
         {
             "name": "syntaxseed/templateseed",
-            "version": "v1.2.2",
+            "version": "v1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/syntaxseed/templateseed.git",
-                "reference": "4fbb8229945e0e8b2691727102c47f1064597753"
+                "reference": "ea5e6c5b3d1de3f19ee89d250fd1f7737c7633db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/syntaxseed/templateseed/zipball/4fbb8229945e0e8b2691727102c47f1064597753",
-                "reference": "4fbb8229945e0e8b2691727102c47f1064597753",
+                "url": "https://api.github.com/repos/syntaxseed/templateseed/zipball/ea5e6c5b3d1de3f19ee89d250fd1f7737c7633db",
+                "reference": "ea5e6c5b3d1de3f19ee89d250fd1f7737c7633db",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.2.*"
+                "phpunit/phpunit": "^8"
             },
             "type": "library",
             "autoload": {
@@ -2010,7 +2010,7 @@
                 "templating",
                 "view"
             ],
-            "time": "2019-09-24T16:08:08+00:00"
+            "time": "2019-10-01T02:41:51+00:00"
         }
     ],
     "packages-dev": [
