@@ -2,7 +2,7 @@
 
 Lightweight Symfony skeleton for basic, mostly static, websites.
 
-Based On: **Symfony 4.3.4** (Skeleton)
+Based On: **Symfony 4.4** (Skeleton)
 
 - TemplateSeed view renderer.
 - Added staging environment config package, removed test.
@@ -18,6 +18,8 @@ Based On: **Symfony 4.3.4** (Skeleton)
 - Security Check dependencies with: ```./bin/console security:check```
 - Set new APP_SECRET in ```.env``` See: http://nux.net/secret
 - Create a copy of the secret.php config in each environment config package (if needed).
+  - Keep these files ignored by source control.
+  - Store copy in a secure vault/password manager.
 - Clear Cache: ```./bin/console cache:clear```
 - Run with built-in webserver: ```./bin/console server:run```
 - ...
