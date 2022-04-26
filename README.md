@@ -9,7 +9,11 @@ Based On: **Symfony 5.4** (Skeleton)
 - Symfony webserver and security-checker available for dev.
 - Monolog added.
 - Base controller with services already injected (TemplateSeed, Monolog).
-- Helpful console commands.
+- Helpful console commands for TemplateSeed.
+
+## TODO:
+
+Rebuild this from scratch based on previous Symfony project. Replace TemplateSeed with Twig. Will have a lot more of what I'll need.
 
 ## Use (dev):
 
