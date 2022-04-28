@@ -12,7 +12,7 @@
         "symfony/framework-bundle": "5.4.*",
         "symfony/monolog-bundle": "^3.7",
         "symfony/yaml": "5.4.*",
-        "syntaxseed/templateseed": "^1.2"
+        "syntaxseed/templateseed": "^1.4"
     },
     "require-dev": {
 
@@ -21,7 +21,10 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true
+        }
     },
     "autoload": {
         "psr-4": {

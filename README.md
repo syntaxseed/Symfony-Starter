@@ -15,6 +15,10 @@ Based On: **Symfony 5.4** (Skeleton)
 
 Rebuild this from scratch based on previous Symfony project. Replace TemplateSeed with Twig. Will have a lot more of what I'll need.
 
+## Static Site Generation
+
+Branch `s4g` (Symfony Seed Static Site Generator) contains an experimental use of TemplateSeed for static site generation.
+
 ## Use (dev):
 
 - Clone Repo

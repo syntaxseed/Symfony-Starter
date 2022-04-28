@@ -18,11 +18,11 @@ $container->setParameter('app.templates.cache.enabled', false);
 /*
  * TTL in seconds for cached templates. Set to null to use default (1 hour).
  */
-$container->setParameter('app.templates.cache.ttl', null);
+$container->setParameter('app.templates.cache.ttl', 1);
 
 /*
  * Path to template cache directory (with trailing slash).
  * Set to null to default to <templates.path>/cache/
  * Required if caching is ever used.
  */
-$container->setParameter('app.templates.cache.path', __DIR__.'/../../var/cache/templates/');
+$container->setParameter('app.templates.cache.path', __DIR__. '/../../public/publish/');

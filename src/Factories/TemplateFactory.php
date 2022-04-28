@@ -24,7 +24,7 @@ class TemplateFactory
         // Set up a callable function that can be used in templates to generate asset urls.
         // Uses Symfony's Asset package.
         $assetsManager =  new PathPackage(
-            '/',
+            '/publish',
             new EmptyVersionStrategy(),
             new RequestStackContext($request_stack)
         );

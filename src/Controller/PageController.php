@@ -23,4 +23,30 @@ class PageController extends BaseController
             ], true)
         );
     }
+
+    public function publish()
+    {
+        $this->view->enableCaching();
+
+        $this->view->setCacheKey('test/index.html', false);
+        $page = $this->view->render('masterpage', [
+            'page' => 'pages/index',
+            'title' => 'Hello Symfony Starter',
+            'data' => ['name' => 'Sherri']
+        ]);
+        $this->view->setCacheKey('');
+
+        $this->view->disableCaching();
+
+
+
+        return new Response(
+            $this->view->render('masterpage', [
+                'page' => 'pages/publish',
+                'title' => 'S4G Publishing Result',
+                'data' => ['pages' => ['index.html']]
+            ], false)
+        );
+    }
+
 }
