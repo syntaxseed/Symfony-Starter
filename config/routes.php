@@ -7,14 +7,14 @@ return function (RoutingConfigurator $routes) {
 
 
     $routes->add('publish', '/publish')
-    ->controller([PageController::class, 'publish'])
-    ->methods(['GET']);
+        ->controller([PageController::class, 'publish'])
+        ->methods(['GET']);
 
 
 
     $routes->add('test', '/{name}')
-    ->controller([PageController::class, 'index'])
-    ->methods(['GET'])
+        ->controller([PageController::class, 'index'])
+        ->methods(['GET'])
         ->defaults(['name' => 'Symfony Starter']);
 
 
